@@ -5,6 +5,7 @@ from fastapi.templating import Jinja2Templates
 home_router = APIRouter()
 templates = Jinja2Templates(directory="templates")
 
+
 @home_router.get("/")
 async def home(request: Request):
 
