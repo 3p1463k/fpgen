@@ -1,0 +1,35 @@
+#for map
+folium
+
+#for dataset
+pandas
+
+#for api
+fastapi
+uvicorn
+
+#for code cleaning
+pre-commit
+
+#for template
+jinja2
+
+#for static files
+aiofiles
+
+#for file processing
+python-multipart
+
+#image processing
+pillow
+
+#web scraping
+selenium
+webdriver_manager
+beautifulsoup4
+lxml
+html5lib
+nltk
+
+#for job scheduling
+schedule
