@@ -12,4 +12,4 @@ async def home(request: Request):
     mystuff = "Hello FastAPI"
     context = {"request": request, "mystuff": mystuff}
 
-    return templates.TemplateResponse("/general_pages/homepage.html", context)
+    return templates.TemplateResponse("general_pages/homepage.html", context)
